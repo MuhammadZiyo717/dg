@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.offer-link {
+    font-size: 12px;
+    color: orange;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 20px;
+    color: #1e2d5c;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.role-selector {
+    display: flex;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.role-selector button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.role-selector .active {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+
+.password-box {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.qr-link {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff8c66;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
